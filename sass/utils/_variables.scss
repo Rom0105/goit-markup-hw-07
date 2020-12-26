@@ -1,0 +1,27 @@
+:root {
+  --black: #212121;
+  --cyan: #2196f3;
+  --grey: #757575;
+  --grey2: rgba(255, 255, 255, 0.6);
+  --grey3: #f5f4fa;
+  --grey4: #afb1b8;
+  --white: #ffffff;
+  --violet: #2f303a;
+}
+
+  body {
+    font-family: Roboto, sans-serif;
+  
+    color: var(--grey);
+  }
+  h1 {
+    font-weight: 900;
+    
+    color: var(--white);
+  }
+  h2,
+  h3 {
+    color: var(--black);
+  }
+  
+  
