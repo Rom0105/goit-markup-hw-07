@@ -5,9 +5,11 @@
   .text-list {
     display: flex;
   }
-  
-  .text-item:not(:last-child) {
-    margin-right: 30px;
+
+  .text-item {
+    &:not(:last-child) {
+      margin-right: 30px;
+    }
   }
   
   .icon-spraite {

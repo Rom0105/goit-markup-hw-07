@@ -16,8 +16,10 @@
     display: flex;
   }
   
-  .work-item:not(:last-child) {
-    margin-right: 30px;
+  .work-item{
+    &:not(:last-child) {
+      margin-right: 30px;
+    }
   }
   
   .thumb {
